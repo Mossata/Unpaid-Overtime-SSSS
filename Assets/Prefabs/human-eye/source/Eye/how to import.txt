@@ -1,0 +1,3 @@
+Hi, if you are facing problems with textures and materials when importing this model, especially with Eevee, here is a quick guide, sorry about the video quality.
+
+https://drive.google.com/file/d/1LiRMaasG6taeoc-Is915fMN2B-kvCbtr/view?usp=drive_link

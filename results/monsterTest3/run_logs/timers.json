@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1758031740",
+        "python_version": "3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/mlagents/bin/mlagents-learn Config/monster.yaml --run-id=monsterTest3 --resume",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.7.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1758031812"
+    },
+    "total": 72.10863100000006,
+    "count": 1,
+    "self": 0.012080250000053638,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01674633300012829,
+            "count": 1,
+            "self": 0.01674633300012829
+        },
+        "TrainerController.start_learning": {
+            "total": 72.07980441699988,
+            "count": 1,
+            "self": 0.00016087499966488394,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 72.07952687500006,
+                    "count": 1,
+                    "self": 72.07952687500006
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0001166670001566672,
+                    "count": 1,
+                    "self": 0.0001166670001566672
+                }
+            }
+        }
+    }
+}

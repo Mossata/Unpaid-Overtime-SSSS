@@ -1,0 +1,29 @@
+{
+    "MonsterBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 4116,
+                "file_path": "results/monsterTest4/MonsterBehaviour/MonsterBehaviour-4116.onnx",
+                "reward": 0.22333334075907865,
+                "creation_time": 1758032961.857213,
+                "auxillary_file_paths": [
+                    "results/monsterTest4/MonsterBehaviour/MonsterBehaviour-4116.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4116,
+            "file_path": "results/monsterTest4/MonsterBehaviour.onnx",
+            "reward": 0.22333334075907865,
+            "creation_time": 1758032961.857213,
+            "auxillary_file_paths": [
+                "results/monsterTest4/MonsterBehaviour/MonsterBehaviour-4116.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.7.0"
+    }
+}
